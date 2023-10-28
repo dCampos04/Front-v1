@@ -6,7 +6,7 @@ import { LandingRoutingModule } from "./landing-routing.module";
 
 import { HeaderLandingComponent } from './header-landing/header-landing.component';
 import { MainLandingComponent } from './main-landing/main-landing.component';
-import {FooterComponent} from "./footer/footer.component";
+import { FooterComponent } from "./footer/footer.component";
 
 
 

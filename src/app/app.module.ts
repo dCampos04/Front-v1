@@ -5,17 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {LandingModule} from "./landing/landing.module";
+
+import { LandingModule } from "./landing/landing.module";
+import { InterModule } from "./inter/inter.module"
+import {HeaderLandingComponent} from "./landing/header-landing/header-landing.component";
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderLandingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
+    InterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
