@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=League+Spartan:wght@100;300&family=Sen:wght@700&display=swap');
+
+* {
+	font-family: 'League Spartan', sans-serif;
+}
+
+body {
+	background: #ffffff;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	padding: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.texto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/********FOOTER*********/
+
+.footer {
+	background-color: black;
+	color: white;
+	padding: 20px 0;
+  }
+  
+  .social-icons {
+	text-align: right;
+	margin-top: 20px;
+  }
+  
+  .social-icon {
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+  }
+  
+  .terms-link {
+	margin-top: 40px; /* Ajusta el margen superior del texto "Términos y Condiciones" */
+  }
+
+  .logo {
+	width: 130px;
+	height: 60px;
+	margin-bottom: 10px;
+  }
+  
+  .company-name {
+	font-size: 18px;
+	margin: 0;
+  }
+  
+  a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
